@@ -6,7 +6,7 @@
 global.fetch = jest.fn();
 
 // Set the base URL env var before importing the module
-process.env.NEXT_PUBLIC_API_URL = 'http://localhost:4000';
+process.env.NEXT_PUBLIC_API_URL = 'http://localhost:3001';
 
 const { getProperties, getProperty, submitInquiry } = require('./api');
 
@@ -26,7 +26,7 @@ describe('getProperties', () => {
   it('calls GET /properties with no query string when no filters', async () => {
     mockFetch(200, []);
     await getProperties();
-    expect(fetch).toHaveBeenCalledWith('http://localhost:4000/properties');
+    expect(fetch).toHaveBeenCalledWith('http://localhost:3001/properties');
   });
 
   it('serialises defined filter values into query string', async () => {
@@ -41,7 +41,7 @@ describe('getProperties', () => {
     mockFetch(200, []);
     await getProperties({ minPrice: undefined, maxPrice: null, location: '', propertyType: 'flat' });
     expect(fetch).toHaveBeenCalledWith(
-      'http://localhost:4000/properties?propertyType=flat'
+      'http://localhost:3001/properties?propertyType=flat'
     );
   });
 
@@ -65,7 +65,7 @@ describe('getProperty', () => {
   it('calls GET /properties/:id', async () => {
     mockFetch(200, { id: 42 });
     await getProperty(42);
-    expect(fetch).toHaveBeenCalledWith('http://localhost:4000/properties/42');
+    expect(fetch).toHaveBeenCalledWith('http://localhost:3001/properties/42');
   });
 
   it('returns the property object on success', async () => {
@@ -87,7 +87,7 @@ describe('submitInquiry', () => {
   it('calls POST /inquiries with JSON body and correct headers', async () => {
     mockFetch(201, { id: 10, ...payload });
     await submitInquiry(payload);
-    expect(fetch).toHaveBeenCalledWith('http://localhost:4000/inquiries', {
+    expect(fetch).toHaveBeenCalledWith('http://localhost:3001/inquiries', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
