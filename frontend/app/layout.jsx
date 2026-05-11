@@ -162,7 +162,7 @@ export default function RootLayout({ children }) {
         </header>
 
         <nav className="nav" role="navigation" aria-label="Main navigation">
-          <a href="/" className="nav__logo" aria-label="1HouseToHome Home">Estate<span>Hub</span></a>
+          <a href="/" className="nav__logo" aria-label="1HouseToHome Home">1HouseTo<span>Home</span></a>
 
           <div className="nav__links" role="menubar">
             {NAV_MENUS.map(item => (
@@ -253,7 +253,7 @@ export default function RootLayout({ children }) {
 
           <div className="footer-main__top">
             <div className="footer-main__brand">
-              <div className="footer-main__logo">Estate<span>Hub</span></div>
+              <div className="footer-main__logo">1HouseTo<span>Home</span></div>
               <p className="footer-main__tagline">Apna Ghar. Apni Marzi.</p>
               <p className="footer-main__follow">Follow us for more</p>
               <div className="footer-main__socials">
