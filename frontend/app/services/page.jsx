@@ -10,14 +10,14 @@ export default function ServicesPage() {
     {icon:'📸',title:'Professional Photography',desc:'High-quality property photos and virtual 3D tours to boost your listing visibility.',price:'Starting ₹2,000'},
     {icon:'🔧',title:'Home Maintenance',desc:'Plumbing, electrical, AC servicing, painting and general repairs by verified professionals.',price:'Starting ₹299'},
     {icon:'🧹',title:'Deep Cleaning',desc:'Professional deep cleaning for move-in/move-out, post-construction and regular maintenance.',price:'Starting ₹1,499'},
-    {icon:'⚡',title:'EstateHub SmartMove+',desc:'Compare energy deals, broadband plans, home insurance and more — all in one place.',price:'Free service'},
+    {icon:'⚡',title:'1HouseToHome SmartMove+',desc:'Compare energy deals, broadband plans, home insurance and more — all in one place.',price:'Free service'},
   ];
 
   return (
     <main className="section" style={{maxWidth:'1000px'}}>
       <span style={{color:'var(--accent)',fontWeight:700,fontSize:'0.8rem',textTransform:'uppercase',letterSpacing:'0.1em'}}>Services</span>
       <h1 className="section__title" style={{marginTop:'0.5rem'}}>Everything You Need for Your Move</h1>
-      <p style={{color:'#9d8fc0',fontSize:'1rem',lineHeight:1.7,marginBottom:'2rem'}}>From interior design to legal help — EstateHub connects you with verified service providers across India.</p>
+      <p style={{color:'#9d8fc0',fontSize:'1rem',lineHeight:1.7,marginBottom:'2rem'}}>From interior design to legal help — 1HouseToHome connects you with verified service providers across India.</p>
 
       <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))',gap:'1.5rem'}}>
         {services.map(s=>(

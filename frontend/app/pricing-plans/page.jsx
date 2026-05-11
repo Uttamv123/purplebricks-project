@@ -1,4 +1,4 @@
-export const metadata = { title: 'Pricing Plans — EstateHub India' };
+export const metadata = { title: 'Pricing Plans — 1HouseToHome India' };
 
 const plans = [
   {
@@ -7,7 +7,7 @@ const plans = [
     period: 'forever',
     tag: 'Most Popular',
     color: '#10b981',
-    features: ['1 active property listing','Basic photos (up to 5)','Listed on EstateHub only','Standard search visibility','Enquiry management dashboard','Valid for 30 days'],
+    features: ['1 active property listing','Basic photos (up to 5)','Listed on 1HouseToHome only','Standard search visibility','Enquiry management dashboard','Valid for 30 days'],
     cta: 'List for Free',
     href: '/add-property',
   },
@@ -29,7 +29,7 @@ const plans = [
     color: '#7c3aed',
     features: ['Up to 25 active listings','All Premium features included','Listed on all major portals','Top placement in search results','Lead management CRM','Monthly performance reports','Dedicated account manager','RERA compliance support'],
     cta: 'Contact Sales',
-    href: 'mailto:sales@estatehub.in',
+    href: 'mailto:sales@1HouseToHome.in',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function PricingPlansPage() {
 
       <div style={{background:'rgba(245,158,11,0.08)',border:'1px solid rgba(245,158,11,0.25)',borderRadius:'0.75rem',padding:'1.5rem'}}>
         <h3 style={{color:'#fde68a',fontWeight:700,marginBottom:'0.5rem'}}>💡 GST Note</h3>
-        <p style={{color:'#9d8fc0',fontSize:'0.875rem',lineHeight:1.7}}>All prices are inclusive of 18% GST as per Indian tax regulations. A GST invoice will be provided for all paid plans. EstateHub India Pvt. Ltd. GSTIN: 29AABCE1234F1Z5</p>
+        <p style={{color:'#9d8fc0',fontSize:'0.875rem',lineHeight:1.7}}>All prices are inclusive of 18% GST as per Indian tax regulations. A GST invoice will be provided for all paid plans. 1HouseToHome India Pvt. Ltd. GSTIN: 29AABCE1234F1Z5</p>
       </div>
     </main>
   );

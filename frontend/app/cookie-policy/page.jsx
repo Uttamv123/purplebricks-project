@@ -1,4 +1,4 @@
-export const metadata = { title: 'Cookie Policy — EstateHub India' };
+export const metadata = { title: 'Cookie Policy — 1HouseToHome India' };
 
 const sections = [
   { title: '1. What Are Cookies?', body: 'Cookies are small text files placed on your device when you visit our website. They help us remember your preferences, understand how you use our platform, and improve your experience. Cookies cannot harm your device or access other files on it.' },
@@ -21,7 +21,7 @@ Third-Party Cookies: Set by our partners including Google Maps (for property loc
 
 Note: Disabling cookies may affect the functionality of our website, including saved searches and personalised recommendations.` },
   { title: '5. Compliance', body: 'Our cookie practices comply with the Information Technology Act, 2000 and the DPDPA 2023. We obtain your consent before placing non-essential cookies on your device.' },
-  { title: '6. Contact Us', body: 'For questions about our cookie practices, contact us at: privacy@estatehub.in' },
+  { title: '6. Contact Us', body: 'For questions about our cookie practices, contact us at: privacy@1HouseToHome.in' },
 ];
 
 export default function CookiePolicyPage() {

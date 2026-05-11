@@ -1,8 +1,8 @@
-export const metadata = { title: 'How Selling Works in India — EstateHub' };
+export const metadata = { title: 'How Selling Works in India — 1HouseToHome' };
 
 const steps = [
   { step: '01', icon: '🏷️', title: 'Get a Free Valuation', desc: 'Our certified valuers assess your property based on location, size, amenities, and recent comparable sales in your area. The valuation is completely free and takes 24–48 hours.' },
-  { step: '02', icon: '📋', title: 'List Your Property', desc: 'Post your property on EstateHub in under 5 minutes. Add photos, description, price, and RERA details. Your listing goes live instantly and is visible to lakhs of buyers.' },
+  { step: '02', icon: '📋', title: 'List Your Property', desc: 'Post your property on 1HouseToHome in under 5 minutes. Add photos, description, price, and RERA details. Your listing goes live instantly and is visible to lakhs of buyers.' },
   { step: '03', icon: '📣', title: 'We Advertise for You', desc: 'Your property is automatically listed on MagicBricks, 99acres, Housing.com, and Google. We handle all the marketing so you get maximum visibility.' },
   { step: '04', icon: '📅', title: 'Manage Site Visits', desc: 'Buyers book site visits directly through our platform. You get notified instantly and can accept or reschedule at your convenience.' },
   { step: '05', icon: '💬', title: 'Negotiate & Accept Offer', desc: 'Receive offers from verified buyers. Our team helps you negotiate the best price. All communications are recorded for transparency.' },
@@ -15,7 +15,7 @@ export default function HowSellingWorksPage() {
     <main className="section" style={{maxWidth:'860px'}}>
       <span style={{color:'var(--accent)',fontWeight:700,fontSize:'0.8rem',textTransform:'uppercase',letterSpacing:'0.1em'}}>Selling Guide</span>
       <h1 className="section__title" style={{marginTop:'0.5rem',display:'block'}}>How Selling Works in India</h1>
-      <p style={{color:'#9d8fc0',marginBottom:'3rem',lineHeight:1.7}}>Selling property in India involves legal, financial, and regulatory steps. Here's a complete guide to selling your property through EstateHub — from valuation to registration.</p>
+      <p style={{color:'#9d8fc0',marginBottom:'3rem',lineHeight:1.7}}>Selling property in India involves legal, financial, and regulatory steps. Here's a complete guide to selling your property through 1HouseToHome — from valuation to registration.</p>
 
       <div style={{display:'flex',flexDirection:'column',gap:'1.25rem',marginBottom:'3rem'}}>
         {steps.map(s => (

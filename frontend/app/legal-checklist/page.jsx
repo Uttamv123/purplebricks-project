@@ -1,4 +1,4 @@
-export const metadata = { title: 'Legal Checklist for Property Buyers — EstateHub India' };
+export const metadata = { title: 'Legal Checklist for Property Buyers — 1HouseToHome India' };
 
 const checklist = [
   { phase: 'Before Booking', color: '#f59e0b', items: [

@@ -72,12 +72,12 @@ const INDIA_LOCATIONS = [
 ];
 
 const FAQS = [
-  { q: 'How do I list my property on EstateHub?', a: 'Register for free, upload photos and details, and your listing goes live within 24 hours. No brokerage charged.' },
-  { q: 'Is EstateHub RERA compliant?', a: 'Yes — all builder projects on our platform are RERA registered. We verify compliance before listing.' },
-  { q: 'How do I get a home loan through EstateHub?', a: 'We partner with 50+ banks and NBFCs. Apply online and get pre-approval within 24 hours.' },
+  { q: 'How do I list my property on 1HouseToHome?', a: 'Register for free, upload photos and details, and your listing goes live within 24 hours. No brokerage charged.' },
+  { q: 'Is 1HouseToHome RERA compliant?', a: 'Yes — all builder projects on our platform are RERA registered. We verify compliance before listing.' },
+  { q: 'How do I get a home loan through 1HouseToHome?', a: 'We partner with 50+ banks and NBFCs. Apply online and get pre-approval within 24 hours.' },
   { q: 'What cities do you cover?', a: 'We cover 100+ cities across India — from Mumbai and Delhi to Tier-2 cities like Indore, Coimbatore and Vadodara.' },
   { q: 'How is the property valuation done?', a: 'Our certified valuers assess your property based on location, size, amenities and recent comparable sales in your area.' },
-  { q: 'Can NRIs buy property through EstateHub?', a: 'Yes — NRIs can buy residential and commercial property in India. We provide dedicated NRI assistance and legal support.' },
+  { q: 'Can NRIs buy property through 1HouseToHome?', a: 'Yes — NRIs can buy residential and commercial property in India. We provide dedicated NRI assistance and legal support.' },
 ];
 
 export default function HomePage() {
@@ -316,9 +316,9 @@ export default function HomePage() {
         <div className="section">
           <div className="smartmove-inner">
             <div className="smartmove-text">
-              <span className="smartmove-tag">EstateHub SmartMove+</span>
+              <span className="smartmove-tag">1HouseToHome SmartMove+</span>
               <h2 className="smartmove-title">Looking to make an energy move?</h2>
-              <p className="smartmove-desc">From browsing for a new boiler, to comparing broadband and energy deals — we've got you covered with EstateHub SmartMove+.</p>
+              <p className="smartmove-desc">From browsing for a new boiler, to comparing broadband and energy deals — we've got you covered with 1HouseToHome SmartMove+.</p>
               <div className="smartmove-features">
                 {['Compare energy deals','Broadband comparison','Boiler cover','Home insurance','Conveyancing'].map(f => (
                   <span key={f} className="smartmove-feature">✓ {f}</span>
@@ -374,7 +374,7 @@ export default function HomePage() {
           <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=900&auto=format&fit=crop" alt="Happy family in their new home" />
         </div>
         <div className="lifestyle-section__content">
-          <span className="lifestyle-section__tag">Why EstateHub</span>
+          <span className="lifestyle-section__tag">Why 1HouseToHome</span>
           <h2 className="lifestyle-section__title">The Home Your <span>Family Deserves</span></h2>
           <p className="lifestyle-section__desc">We make finding the perfect family home simple, transparent, and stress-free. From first search to final keys — we're with you every step of the way.</p>
           <div className="lifestyle-section__features">

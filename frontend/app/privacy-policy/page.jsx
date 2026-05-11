@@ -1,4 +1,4 @@
-export const metadata = { title: 'Privacy Policy — EstateHub India' };
+export const metadata = { title: 'Privacy Policy — 1HouseToHome India' };
 
 export default function PrivacyPolicyPage() {
   return (
@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
       {[
         {
           title: '1. Introduction',
-          body: `EstateHub India Pvt. Ltd. ("EstateHub", "we", "us", or "our") is committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.estatehub.in or use our mobile application.
+          body: `1HouseToHome India Pvt. Ltd. ("1HouseToHome", "we", "us", or "our") is committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.1HouseToHome.in or use our mobile application.
 
 We comply with the Information Technology Act, 2000, the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 ("SPDI Rules"), and the Digital Personal Data Protection Act, 2023 ("DPDPA").`
         },
@@ -70,7 +70,7 @@ We do not sell your personal data to third parties.`
 • Grievance redressal through our Data Protection Officer
 • Nominate a person to exercise rights on your behalf
 
-To exercise these rights, contact our Data Protection Officer at: dpo@estatehub.in`
+To exercise these rights, contact our Data Protection Officer at: dpo@1HouseToHome.in`
         },
         {
           title: '7. Cookies',
@@ -86,9 +86,9 @@ To exercise these rights, contact our Data Protection Officer at: dpo@estatehub.
 
 Name: Rajesh Kumar
 Designation: Data Protection Officer
-Email: grievance@estatehub.in
+Email: grievance@1HouseToHome.in
 Phone: +91-80-4567-8900
-Address: EstateHub India Pvt. Ltd., 4th Floor, Prestige Tech Park, Outer Ring Road, Bengaluru – 560103
+Address: 1HouseToHome India Pvt. Ltd., 4th Floor, Prestige Tech Park, Outer Ring Road, Bengaluru – 560103
 
 We will respond to your grievance within 30 days of receipt.`
         },

@@ -1,4 +1,4 @@
-export const metadata = { title: 'Careers — EstateHub India' };
+export const metadata = { title: 'Careers — 1HouseToHome India' };
 
 const jobs = [
   { title: 'Senior Full Stack Engineer', dept: 'Engineering', location: 'Bengaluru', type: 'Full-time', exp: '4–7 years', desc: 'Build and scale our property search platform using React, Node.js, and PostgreSQL. Work on high-traffic systems serving millions of property seekers across India.' },
@@ -23,7 +23,7 @@ export default function CareersPage() {
     <main className="section" style={{maxWidth:'960px'}}>
       <div style={{marginBottom:'2.5rem'}}>
         <span style={{color:'var(--accent)',fontWeight:700,fontSize:'0.8rem',textTransform:'uppercase',letterSpacing:'0.1em'}}>Join Us</span>
-        <h1 className="section__title" style={{marginTop:'0.5rem',display:'block'}}>Careers at EstateHub</h1>
+        <h1 className="section__title" style={{marginTop:'0.5rem',display:'block'}}>Careers at 1HouseToHome</h1>
         <p style={{color:'#9d8fc0',fontSize:'1rem',lineHeight:1.7,maxWidth:'600px'}}>We're building India's most trusted property platform. Join a team of passionate people solving real problems for millions of home buyers and sellers across India.</p>
       </div>
 
@@ -52,7 +52,7 @@ export default function CareersPage() {
               <span style={{background:'rgba(124,58,237,0.15)',color:'#c4b5fd',fontSize:'0.75rem',fontWeight:600,padding:'0.25rem 0.75rem',borderRadius:'999px',border:'1px solid rgba(124,58,237,0.3)'}}>{j.type}</span>
             </div>
             <p style={{color:'#9d8fc0',fontSize:'0.875rem',lineHeight:1.65,marginBottom:'1rem'}}>{j.desc}</p>
-            <a href={`mailto:careers@estatehub.in?subject=Application: ${j.title}`} style={{color:'var(--accent)',fontWeight:600,fontSize:'0.875rem'}}>Apply Now →</a>
+            <a href={`mailto:careers@1HouseToHome.in?subject=Application: ${j.title}`} style={{color:'var(--accent)',fontWeight:600,fontSize:'0.875rem'}}>Apply Now →</a>
           </div>
         ))}
       </div>
@@ -73,7 +73,7 @@ export default function CareersPage() {
       <div style={{background:'rgba(245,158,11,0.08)',border:'1px solid rgba(245,158,11,0.25)',borderRadius:'0.75rem',padding:'1.75rem',textAlign:'center'}}>
         <h3 style={{color:'#fde68a',fontWeight:700,marginBottom:'0.5rem'}}>Don't see a role that fits?</h3>
         <p style={{color:'#9d8fc0',marginBottom:'1rem',fontSize:'0.9rem'}}>We're always looking for talented people. Send us your resume and we'll reach out when the right opportunity comes up.</p>
-        <a href="mailto:careers@estatehub.in" style={{background:'var(--accent)',color:'#fff',fontWeight:700,padding:'0.75rem 1.75rem',borderRadius:'0.5rem',display:'inline-block'}}>📧 Send Your Resume</a>
+        <a href="mailto:careers@1HouseToHome.in" style={{background:'var(--accent)',color:'#fff',fontWeight:700,padding:'0.75rem 1.75rem',borderRadius:'0.5rem',display:'inline-block'}}>📧 Send Your Resume</a>
       </div>
     </main>
   );

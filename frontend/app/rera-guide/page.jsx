@@ -1,4 +1,4 @@
-export const metadata = { title: 'RERA & Registry Guide for Sellers — EstateHub India' };
+export const metadata = { title: 'RERA & Registry Guide for Sellers — 1HouseToHome India' };
 
 export default function ReraGuidePage() {
   return (

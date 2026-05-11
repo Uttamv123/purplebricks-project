@@ -1,4 +1,4 @@
-export const metadata = { title: 'RERA Registration — EstateHub India' };
+export const metadata = { title: 'RERA Registration — 1HouseToHome India' };
 
 const stateRera = [
   { state: 'Maharashtra', authority: 'MahaRERA', website: 'maharera.mahaonline.gov.in', regNo: 'A51800000001' },
@@ -17,7 +17,7 @@ export default function ReraPage() {
       <div style={{marginBottom:'2.5rem'}}>
         <span style={{color:'var(--accent)',fontWeight:700,fontSize:'0.8rem',textTransform:'uppercase',letterSpacing:'0.1em'}}>Compliance</span>
         <h1 className="section__title" style={{marginTop:'0.5rem',display:'block'}}>RERA Registration</h1>
-        <p style={{color:'#9d8fc0',lineHeight:1.7}}>EstateHub India Pvt. Ltd. is registered as a Real Estate Agent under the Real Estate (Regulation and Development) Act, 2016 (RERA) in multiple states across India.</p>
+        <p style={{color:'#9d8fc0',lineHeight:1.7}}>1HouseToHome India Pvt. Ltd. is registered as a Real Estate Agent under the Real Estate (Regulation and Development) Act, 2016 (RERA) in multiple states across India.</p>
       </div>
 
       <div style={{background:'linear-gradient(135deg,rgba(124,58,237,0.15),rgba(245,158,11,0.1))',border:'1px solid rgba(124,58,237,0.3)',borderRadius:'0.75rem',padding:'1.75rem',marginBottom:'2rem'}}>
@@ -53,7 +53,7 @@ export default function ReraPage() {
 
       <div style={{background:'rgba(245,158,11,0.08)',border:'1px solid rgba(245,158,11,0.25)',borderRadius:'0.75rem',padding:'1.5rem'}}>
         <h3 style={{color:'#fde68a',fontWeight:700,marginBottom:'0.5rem'}}>⚠️ Important Disclaimer</h3>
-        <p style={{color:'#9d8fc0',fontSize:'0.875rem',lineHeight:1.7}}>EstateHub displays RERA registration numbers as provided by developers and agents. Buyers are advised to independently verify project registrations on the respective state RERA portal before making any payment or booking. EstateHub is not liable for any discrepancies in RERA registration details provided by third-party listers.</p>
+        <p style={{color:'#9d8fc0',fontSize:'0.875rem',lineHeight:1.7}}>1HouseToHome displays RERA registration numbers as provided by developers and agents. Buyers are advised to independently verify project registrations on the respective state RERA portal before making any payment or booking. 1HouseToHome is not liable for any discrepancies in RERA registration details provided by third-party listers.</p>
       </div>
     </main>
   );

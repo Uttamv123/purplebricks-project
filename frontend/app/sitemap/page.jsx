@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const metadata = { title: 'Sitemap — EstateHub India' };
+export const metadata = { title: 'Sitemap — 1HouseToHome India' };
 
 const sitemapSections = [
   {
@@ -76,7 +76,7 @@ export default function SitemapPage() {
       <div style={{marginBottom:'2.5rem'}}>
         <span style={{color:'var(--accent)',fontWeight:700,fontSize:'0.8rem',textTransform:'uppercase',letterSpacing:'0.1em'}}>Navigation</span>
         <h1 className="section__title" style={{marginTop:'0.5rem',display:'block'}}>Sitemap</h1>
-        <p style={{color:'#9d8fc0'}}>A complete overview of all pages on EstateHub India.</p>
+        <p style={{color:'#9d8fc0'}}>A complete overview of all pages on 1HouseToHome India.</p>
       </div>
       <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))',gap:'1.5rem'}}>
         {sitemapSections.map(s => (

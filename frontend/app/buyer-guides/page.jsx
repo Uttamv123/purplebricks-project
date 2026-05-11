@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const metadata = { title: 'Buyer Property Guides — EstateHub India' };
+export const metadata = { title: 'Buyer Property Guides — 1HouseToHome India' };
 
 const guides = [
   { icon: '🏠', title: 'First-Time Buyer\'s Complete Guide', desc: 'Everything you need to know about buying your first home in India — from budgeting to registration.', topics: ['How much can you afford?','Understanding home loans','RERA verification','Site visit checklist','Negotiation tips'] },

@@ -29,7 +29,7 @@ export default function SellPage() {
 
       <div style={{background:'linear-gradient(135deg,#2d0f5e,#1a0533)',border:'1px solid rgba(124,58,237,0.3)',borderRadius:'0.75rem',padding:'2rem',marginBottom:'2rem',textAlign:'center'}}>
         <h2 style={{color:'#fff',fontWeight:800,marginBottom:'0.75rem'}}>Ready to sell? List for free today.</h2>
-        <p style={{color:'rgba(255,255,255,0.75)',marginBottom:'1.5rem'}}>Join 2 lakh+ sellers who trust EstateHub India</p>
+        <p style={{color:'rgba(255,255,255,0.75)',marginBottom:'1.5rem'}}>Join 2 lakh+ sellers who trust 1HouseToHome India</p>
         <Link href="/add-property" style={{background:'var(--accent)',color:'#fff',fontWeight:700,padding:'0.875rem 2rem',borderRadius:'0.5rem',display:'inline-block'}}>📋 Post Your Property — Free</Link>
       </div>
 

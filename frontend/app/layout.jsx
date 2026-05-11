@@ -3,7 +3,7 @@ import NavDropdown from '../components/NavDropdown';
 import { ClerkProvider, SignInButton, SignUpButton, UserButton, SignedIn, SignedOut } from '@clerk/nextjs';
 
 export const metadata = {
-  title: 'EstateHub India — Buy & Sell Property',
+  title: '1HouseToHome India — Buy & Sell Property',
   description: "India's trusted property platform — buy, sell and invest across 100+ cities.",
 };
 
@@ -143,7 +143,7 @@ const NAV_MENUS = [
         links: [
           { icon: '🏢', label: 'Property management', sub: 'For NRIs & landlords', href: '/services' },
           { icon: '📸', label: 'Professional photography', sub: 'Boost your listing', href: '/services' },
-          { icon: '⚡', label: 'EstateHub SmartMove+', sub: 'Energy, broadband & more', href: '/services', tag: 'New' },
+          { icon: '⚡', label: '1HouseToHome SmartMove+', sub: 'Energy, broadband & more', href: '/services', tag: 'New' },
           { icon: '💬', label: 'Speak to an expert', href: '/services' },
         ],
       },
@@ -162,7 +162,7 @@ export default function RootLayout({ children }) {
         </header>
 
         <nav className="nav" role="navigation" aria-label="Main navigation">
-          <a href="/" className="nav__logo" aria-label="EstateHub Home">Estate<span>Hub</span></a>
+          <a href="/" className="nav__logo" aria-label="1HouseToHome Home">Estate<span>Hub</span></a>
 
           <div className="nav__links" role="menubar">
             {NAV_MENUS.map(item => (
@@ -198,7 +198,7 @@ export default function RootLayout({ children }) {
         <footer className="footer-main">
           <div className="footer-links-section">
             <div className="footer-links-group">
-              <h4 className="footer-links-heading">Selling with EstateHub</h4>
+              <h4 className="footer-links-heading">Selling with 1HouseToHome</h4>
               <div className="footer-links-cols">
                 <div className="footer-links-col">
                   <a href="/how-selling-works">How selling works in India</a>
@@ -211,7 +211,7 @@ export default function RootLayout({ children }) {
                   <a href="/property-valuation">Property valuation tools</a>
                   <a href="/sell">Nearby agent finder</a>
                   <a href="/sell">Market price trends</a>
-                  <a href="/sell">Where EstateHub advertises</a>
+                  <a href="/sell">Where 1HouseToHome advertises</a>
                   <a href="/sell">Virtual property tour</a>
                 </div>
                 <div className="footer-links-col">
@@ -281,7 +281,7 @@ export default function RootLayout({ children }) {
               <a href="#">Buyer's guide</a>
               <a href="#">Latest property news</a>
               <a href="#">Legal & documentation</a>
-              <a href="#">EstateHub SmartMove+</a>
+              <a href="#">1HouseToHome SmartMove+</a>
             </div>
             <div className="footer-main__col">
               <h4>Help & Contact</h4>
@@ -309,7 +309,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
           <p className="footer-main__copy">
-            © 2026 EstateHub India Pvt. Ltd. All Rights Reserved. | RERA Registered<br/>
+            © 2026 1HouseToHome India Pvt. Ltd. All Rights Reserved. | RERA Registered<br/>
             <span style={{fontSize:'0.75rem', opacity:0.6}}>
               Important: Property transactions involve legal obligations. Please verify RERA registration before booking. Home loans are subject to bank approval and eligibility criteria.
             </span>
