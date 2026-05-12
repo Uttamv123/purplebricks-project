@@ -314,6 +314,11 @@ export default function RootLayout({ children }) {
               Important: Property transactions involve legal obligations. Please verify RERA registration before booking. Home loans are subject to bank approval and eligibility criteria.
             </span>
           </p>
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:'0.5rem',marginTop:'1.25rem',paddingTop:'1rem',borderTop:'1px solid rgba(255,255,255,0.08)'}}>
+            <span style={{fontSize:'0.75rem',color:'rgba(255,255,255,0.4)',letterSpacing:'0.05em'}}>Powered by</span>
+            <img src="/codereflections-logo.png" alt="The Code Reflections" style={{height:'28px',width:'auto',opacity:0.85}} />
+            <span style={{fontSize:'0.75rem',color:'rgba(255,255,255,0.6)',fontWeight:600,letterSpacing:'0.03em'}}>The Code Reflections</span>
+          </div>
         </footer>
       </body>
     </html>
