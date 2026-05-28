@@ -5,6 +5,7 @@
   functions = "netlify/functions"
 
 [build.environment]
+  SECRETS_SCAN_OMIT_PATHS = ".next,node_modules"
   SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_API_URL,NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,NEXT_PUBLIC_CLERK_SIGN_IN_URL,NEXT_PUBLIC_CLERK_SIGN_UP_URL"
 
 [[plugins]]
