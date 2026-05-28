@@ -33,14 +33,22 @@ async function handleResponse(res) {
 }
 
 /**
- * Fetch a list of properties, optionally filtered.
+ * Fetch a list of properties from DynamoDB via Netlify function, optionally filtered client-side.
  * @param {Object} [filters] - { minPrice, maxPrice, location, propertyType }
  * @returns {Promise<Array>}
  */
 export async function getProperties(filters = {}) {
-  const qs = buildQueryString(filters);
-  const res = await fetch(`${BASE_URL}/properties${qs}`);
-  return handleResponse(res);
+  const res = await fetch('/.netlify/functions/getProperties');
+  const items = await handleResponse(res);
+
+  // Apply filters client-side since the Lambda does a full scan
+  return items.filter(p => {
+    if (filters.minPrice && p.price < Number(filters.minPrice)) return false;
+    if (filters.maxPrice && p.price > Number(filters.maxPrice)) return false;
+    if (filters.location && !p.location?.toLowerCase().includes(filters.location.toLowerCase())) return false;
+    if (filters.propertyType && p.property_type !== filters.propertyType) return false;
+    return true;
+  });
 }
 
 /**
