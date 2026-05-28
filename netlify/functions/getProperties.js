@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 
 const dynamo = new AWS.DynamoDB.DocumentClient({
-  region: process.env.MY_AWS_REGION,
+  region: 'ap-southeast-2',
   accessKeyId: process.env.MY_AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.MY_AWS_SECRET_ACCESS_KEY,
 });
