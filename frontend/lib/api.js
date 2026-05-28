@@ -52,13 +52,20 @@ export async function getProperties(filters = {}) {
 }
 
 /**
- * Fetch a single property by ID.
+ * Fetch a single property by ID from DynamoDB via Netlify function.
  * @param {number|string} id
  * @returns {Promise<Object>}
  */
 export async function getProperty(id) {
-  const res = await fetch(`${BASE_URL}/properties/${id}`);
-  return handleResponse(res);
+  const res = await fetch('/.netlify/functions/getProperties');
+  const items = await handleResponse(res);
+  const property = items.find(p => String(p.id) === String(id));
+  if (!property) {
+    const err = new Error('Property not found');
+    err.status = 404;
+    throw err;
+  }
+  return property;
 }
 
 /**
